@@ -11,10 +11,11 @@ public class Main {
         circumference = 2 * Math.PI * radius;
         area = Math.PI * Math.pow(radius,2);
         volume = ((double) 4 /3) * Math.PI * Math.pow(radius,3);
-        System.out.println("The Circumference is: " + circumference + "cm" );
-        System.out.println("The Area is: " + area + "cm²");
-        System.out.println("The Volume is: " + volume + "cm³");
+        System.out.printf("The Circumference is: %.1fcm \n" , circumference);
+        System.out.printf("The Area is: %.1fcm² \n" , area);
+        System.out.printf("The Volume is: %.1fcm³ \n" , volume);
         scanner.close();
     }
 }
+
 
