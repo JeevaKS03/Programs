@@ -1,2 +1,2 @@
 # Programs
-My Simple Projects
+My Simple Programming Projects
